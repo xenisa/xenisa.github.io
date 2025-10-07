@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="data:,">
+  <meta name="generator" content="pandoc" />
+  <div id="menu">
+	<a href="index.html"><b>Home</b></a> | 
+	<a href="the-nature-of-law.html">The Nature of Law</a> | 
+	<a href="the-nap.html">The Non-Aggression Principle</a> | 
+	<a href="homesteading-and-property-rights.html">Homesteading and Property Rights</a> | 
+	<a href="contract-theory.html">Contract Theory</a> | 
+	<a href="childrens-rights.html">The Rights of Children</a> | 
+	<a href="defensive-force-and-proportionality.html">Defensive Force and Proportionality</a> | 
+	<a href="law-subset.html">An Elaboration on the Nature of Law as a Subset of Ethics</a> | 
+  </div>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="dcterms.date" content="2023-04-25" />
+  <meta name="description" content="The questions of what types of defense and what types of punishment are legitimate are of great importance to the legal theorist. The libertarian theory of non-aggression provides objective and insightful answers to both." />
+  <title>Defensive Force and Proportionality</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Defensive Force and Proportionality</h1>
+<p class="description">The questions of what types of defense and what types of punishment are legitimate are of great importance to the legal theorist. The libertarian theory of non-aggression provides objective and insightful answers to both.</p>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#the-just-means-of-punishment"
+id="toc-the-just-means-of-punishment">The Just Means of Punishment</a>
+<ul>
+<li><a href="#the-theory-of-dialogical-estoppel"
+id="toc-the-theory-of-dialogical-estoppel">The Theory of Dialogical
+Estoppel</a></li>
+<li><a href="#applying-estoppel" id="toc-applying-estoppel">Applying
+Estoppel</a></li>
+<li><a href="#potential-objections-from-the-criminal"
+id="toc-potential-objections-from-the-criminal">Potential Objections
+from the Criminal</a>
+<ul>
+<li><a href="#the-objection-from-particularisation"
+id="toc-the-objection-from-particularisation">The Objection from
+Particularisation</a></li>
+<li><a href="#the-objection-from-changing-ones-mind"
+id="toc-the-objection-from-changing-ones-mind">The Objection from
+Changing One’s Mind</a></li>
+</ul></li>
+<li><a href="#mens-rea-vs-actus-reus"
+id="toc-mens-rea-vs-actus-reus">Mens Rea vs Actus Reus</a></li>
+</ul></li>
+<li><a href="#the-just-means-of-defense"
+id="toc-the-just-means-of-defense">The Just Means of Defense</a>
+<ul>
+<li><a href="#defense-as-exclusion"
+id="toc-defense-as-exclusion">Defense as Exclusion</a></li>
+<li><a href="#the-human-body-sword-and-the-human-body-shield"
+id="toc-the-human-body-sword-and-the-human-body-shield">The Human-Body
+Sword and the Human-Body Shield</a></li>
+</ul></li>
+<li><a href="#related-reading" id="toc-related-reading">Related
+Reading</a></li>
+<li><a href="#footnotes" id="toc-footnotes">Footnotes</a></li>
+</ul>
+</nav>
+<blockquote>
+<p>No doubt punishment serves many purposes. It can deter crime and
+prevent the offender from committing further crimes. Punishment can even
+rehabilitate some criminals, if it is not capital. It can satisfy a
+victim’s longing for revenge, or his relatives’ desire to avenge.
+Punishment can also be used as a lever to gain restitution, recompense
+for some of the damage caused by the crime. For these reasons, the issue
+of punishment is, and always has been, of vital concern to civilized
+people. They want to know the effects of punishment and effective ways
+of carrying it out.</p>
+<p>—N. Stephan
+Kinsella<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup></p>
+</blockquote>
+<p>This document is part of a course which you can find <a
+href="https://liquidzulu.github.io/libertarian-ethics">here</a>. I
+provide the textual version for free to the public to make people aware
+of the facts contained within and to (hopefully) convince people to
+purchase the video course. This course is intended primarily as a video
+experience, and that is where my focus will be in terms of quality, so I
+do encourage you to check it out if this content is at all interesting
+to you. The course is sold on a pay-what-you-want model and is copyleft,
+meaning other people have the right to re-publish it at will. I simply
+encourage anyone who appreciates the work put into this course to
+purchase it such that I may make more in the future, and if you do
+choose to republish any section, please credit me and extend to your
+audience my request to purchase.</p>
+<h1 id="the-just-means-of-punishment">The Just Means of Punishment</h1>
+<h2 id="the-theory-of-dialogical-estoppel">The Theory of Dialogical
+Estoppel</h2>
+<p>Thusfar this course has elucidated theories and examples denoting
+what is and is not aggression. Now that we know what it means to be
+criminal, this lesson will answer the question of what actions are just
+in defending against and punishing aggressions.</p>
+<blockquote>
+<p>[First,] [w]hat does it mean to punish? Dictionary definitions are
+easy to come by, but in the sense that interests those of us who want to
+punish, punishment is the infliction of physical force on a person, in
+response to something that he has done or has failed to do. Punishment
+thus comprises physical violence committed against a person’s body, or
+against any other property that a person legitimately owns, against any
+rights that a person has. Punishment is for, or in response to, some
+action, inaction, feature, or status of the person punished; otherwise,
+it is simply random violence, which is not usually considered to be
+punishment. Thus when we punish a person, it is because we consider him
+to be a wrongdoer of some sort. We typically want to teach him or others
+a lesson, or exact vengeance or restitution, for what he has
+done.<sup><a id="fnr.2" class="footref" href="#fn.2" role="doc-backlink">2</a></sup></p>
+</blockquote>
+<p>Note that the question of justifying a punishment only arises insofar
+as the wrongdoer rejects the justice of the punishment. That is to say,
+if the criminal consents to a certain retaliation, this retaliation is
+per se just as there can be no conflicts where the wills of men are in
+harmony. Justifying a punishment is far more challenging when the
+criminal does not consent, i.e. when the criminal wishes to challenge
+the justice of a given punishment. We know from prior analysis that this
+challenge seeks to test the justification against the nature of
+argumentatively justifying as such. If the punishment cannot be
+justified without thereby falling into contradiction, it is unjust.</p>
+<p>Therefore, the nature of argumentation is a suitable starting point
+to obtain a rational theory of punishment. Recall that contradictions
+are falsehoods, and thus not a feature of a correct argument, therefore
+a person can be prevented from making certain claims in a dialectic if
+those claims are inconsistent with his actions. To be abundantly clear,
+to avoid any confusion; the person is not being prevented from making
+these claims by a judge or a cop or whatever physically coercing him
+into not making the claims, he is prevented from making the claims by
+the very nature of dialectic as such—in other words, if he did make
+those knowingly incoherent claims he would not be engaged in
+argumentation, he would rather be babbling or telling a joke or
+something else. This forms the root of what Kinsella dubs “Dialogical
+Estoppel.”<sup><a id="fnr.3" class="footref" href="#fn.3" role="doc-backlink">3</a></sup>
+Lord Coke explains that the word “estoppel” is used “because a man’s own
+act or acceptance stoppeth or closeth up his
+mouth,”<sup><a id="fnr.4" class="footref" href="#fn.4" role="doc-backlink">4</a></sup>
+and “dialogical” refers to dialogue, aka argumentation. So we can say
+that a man is, by the nature of argumentation as such, estopped from
+making certain inconsistent or contradictory
+claims:<sup><a id="fnr.5" class="footref" href="#fn.5" role="doc-backlink">5</a></sup></p>
+<blockquote>
+<p>To say that a person is estopped from making certain claims means
+that the claims cannot even possibly be right, because they are
+contradictory. It is to recognize that his assertion is simply wrong
+because it is contradictory.</p>
+<p>Applying estoppel in such a manner perfectly complements the very
+purpose of dialogue. Dialogue […] is by its nature an activity aimed at
+finding truth. Anyone engaged in argument is necessarily endeavoring to
+discern the truth about some particular subject; to the extent this is
+not the case, there is no dialogue occurring, but mere babbling or even
+physical fighting. Nor can this be denied. Anyone engaging in argument
+long enough to deny that truth is the goal of discourse contradicts
+himself, because he is himself asserting or challenging the truth of a
+given proposition. Thus, the assertion as true of anything that simply
+cannot be true is incompatible with the very purpose of discourse.
+Anything that cannot be true is contrary to the truth-finding purpose of
+discourse, and thus is not permissible within the bounds of the
+discourse.</p>
+</blockquote>
+<h2 id="applying-estoppel">Applying Estoppel</h2>
+<p>Let’s apply this theory of estoppel to the case of <span
+class="math inline"><em>A</em></span> punching <span
+class="math inline"><em>B</em></span>. Assume that this is the extent of
+the assault, as the question of defending an ongoing aggression shall be
+discussed in the next section, <span
+class="math inline"><em>B</em></span> decides that he wants to punish
+<span class="math inline"><em>A</em></span> in an eye-for-an-eye manner
+by punching him back, or perhaps by hiring a champion, <span
+class="math inline"><em>C</em></span>, to punch <span
+class="math inline"><em>A</em></span> if <span
+class="math inline"><em>B</em></span> cannot, or does not want to, do
+this himself. If <span class="math inline"><em>A</em></span> were to
+challenge this punishment, he would claim that this punching of him is
+an impermissible action, i.e. that people should be prohibited from
+punching him. But, <span class="math inline"><em>A</em></span> has
+previously demonstrated that he thinks that he should not be prohibited
+from punching <span class="math inline"><em>B</em></span>. In essence,
+<span class="math inline"><em>A</em></span> has pre-supposed that
+punching people sans-consent is just, and is now explicitly making the
+claim that its unjust. This is a clearly incoherent position, thus <span
+class="math inline"><em>A</em></span> is estopped from challenging his
+punishment, therefore we revert back to the simple case of an
+unchallenged punishment which is per se just.</p>
+<p>Notice that this applies only to punching as the punishment; <span
+class="math inline"><em>A</em></span> could coherently argue that it is
+unjust to murder him, or take a lock of his hair, or tear up his prized
+roses, as these retaliations would be of an entirely different sort.
+That is, by merely punching <span class="math inline"><em>B</em></span>,
+<span class="math inline"><em>A</em></span> pre-supposes only that
+punching is proper conduct, but he does not per se pre-suppose that any
+other invasions of property borders are proper. This is where the
+concept of proportionality comes in—the retribution against an aggressor
+must come in the same form as the aggression, or else the punishment is
+further aggression and thus not just. In short, just retribution is an
+eye for an eye, not an eye for a tooth.</p>
+<h2 id="potential-objections-from-the-criminal">Potential Objections
+from the Criminal</h2>
+<h3 id="the-objection-from-particularisation">The Objection from
+Particularisation</h3>
+<p>There are a number of potential objections to this theory that <span
+class="math inline"><em>A</em></span> might forward. First, he might
+claim that his positions are not that punching is proper and that
+punching is improper; but rather that <span
+class="math inline"><em>A</em></span> punching <span
+class="math inline"><em>B</em></span> is proper and anyone punching
+<span class="math inline"><em>A</em></span> is improper. Thus there is
+no contradiction and he is not estopped from challenging his punishment.
+The issue here is that any norm must in principle be universilisable if
+it is to be proposed in an argument, as Hoppe points
+out:<sup><a id="fnr.6" class="footref" href="#fn.6" role="doc-backlink">6</a></sup></p>
+<blockquote>
+<p>Quite commonly it has been observed that argumentation implies that a
+proposition claims universal acceptability, or, should it be a norm
+proposal, that it is “universalizable.” Applied to norm proposals, this
+is the idea, as formulated in the Golden Rule of ethics or in the
+Kantian Categorical Imperative, that only those norms can be justified
+that can be formulated as general principles which are valid for
+everyone without exception.</p>
+</blockquote>
+<p>This is because if one is to claim any proposition as being
+argumentatively valid, said proposition must be rational—what this means
+is that it must in principle be valid no matter who it is proposed to.
+To reject this would be to adopt a polylogism; i.e. that a proposition
+might be true when levied in one argument, but not when levied in
+another<sup><a id="fnr.7" class="footref" href="#fn.7" role="doc-backlink">7</a></sup>—and
+it was shown in the first lesson, that polylogism implies contradiction,
+making it false. So universilisability is therefore a pre-supposition of
+the very normative discourse that <span
+class="math inline"><em>A</em></span> would be partaking in by
+attempting to reject his punishment, but the norm that its fine for
+<span class="math inline"><em>A</em></span> to punch <span
+class="math inline"><em>B</em></span> but not for others to punch <span
+class="math inline"><em>A</em></span> is not universalisable—we would be
+faced with a contradiction if we tried to swap out <span
+class="math inline"><em>A</em></span> for <span
+class="math inline"><em>B</em></span> and hold both norms
+simultaneously, meaning this norm cannot be applied to
+everyone:<sup><a id="fnr.8" class="footref" href="#fn.8" role="doc-backlink">8</a></sup></p>
+<blockquote>
+<p>An arguer cannot escape the application of estoppel by arbitrarily
+specializing his otherwise-inconsistent views with liberally-sprinkled
+“for me only’s.”</p>
+</blockquote>
+<p>Kinsella points out further that even if we throw away the
+requirement of universilisability, and instead assume that norms can be
+particularised in this way, this would mean that <span
+class="math inline"><em>B</em></span> could simply particularise his
+punishment norm and thus claim it to be just for him to retaliate—we
+would quickly regress into incoherent subjectivist ramblings of might
+making right.</p>
+<h3 id="the-objection-from-changing-ones-mind">The Objection from
+Changing One’s Mind</h3>
+<p>So this objection by particularisation fails, leaving our aggressor
+estopped once-more; a second potential counter he might raise, however,
+is that he has changed his mind—i.e. that he used to think it proper to
+punch people, but he has had a change of heart and now realises that
+such conduct is evil, and therefore he is not currently in
+contradiction, and thus not estopped from objecting to his
+punishment.</p>
+<p>There are a number of problems with <span
+class="math inline"><em>A</em></span>’s approach here, first, if
+changing one’s mind means that one is no longer liable for their prior
+actions, then all <span class="math inline"><em>B</em></span> must do is
+punish <span class="math inline"><em>A</em></span> then afterwards claim
+that he has changed his mind about that punishment, meaning he is also
+not responsible. You will notice that this would quickly devolve into a
+might-plus-regret-makes-right, which would be an irrational ethic.</p>
+<p>Second, by <span class="math inline"><em>A</em></span> changing his
+mind, he is per se denouncing his prior aggression, thus asserting that
+aggressions are indeed impermissible. This would mean that he could not
+coherently deny the right of the victim of aggression to punish said
+aggression—to say that an action is permissible is to say that one may
+not legally punish it.</p>
+<p>Third, this mind-changing is still a form of particularisation—it’s
+the claim that the logical structure of what it means to pre-suppose an
+action as legitimate can change by the mere fact that the person
+pre-supposing said legitimacy also thinks that the action is
+illegitimate. Let’s unpack this—what <span
+class="math inline"><em>A</em></span> is asserting here is that they
+believe in their heart that the punching is illegitimate, whether they
+only started holding this fact after doing the punching isn’t
+particularly relevant. All that matters is at the moment of the assault
+<span class="math inline"><em>A</em></span> must pre-suppose that
+punching is a legitimate action—this could take place simultaneously
+with <span class="math inline"><em>A</em></span> believing it to be
+illegitimate or not, men are capable of believing in contradictory
+things after all. What is important is that <span
+class="math inline"><em>A</em></span> <em>cannot</em> drop the
+pre-supposition that punching is legitimate. He has already committed
+the act of aggression that pre-supposes this as a legitimate
+interaction. Because he cannot drop this pre-supposition, in order to
+resolve the contradiction he is left with only the option of dropping
+his challenge to the aggression. Therefore he is estopped by
+definition.</p>
+<p>I will re-iterate this point for clarity; what makes a man estopped
+from challenging a given punishment is that the given challenge would
+imply a contradiction, meaning it cannot be uttered in an argument. When
+I perform some action <span class="math inline"><em>X</em></span>, I
+thereby pre-suppose by this performance that I think I should do <span
+class="math inline"><em>X</em></span> as opposed to <span
+class="math inline">¬<em>X</em></span>. There is some confusion over
+this thesis, often I have encountered the counterargument of the man who
+is smoking and says that he should stop—does this man not believe that
+he should stop? Is he lying when he says he should stop? That is not
+necessarily the case. We can indeed imagine a man who is currently
+engaged in an act of smoking–a man who has chosen to smoke rather than
+not smoke–who nonetheless believes that he should not smoke. But, this
+does <em>not</em> establish that he is not also pre-supposing that he
+should smoke. It is possible for a person two hold two contradictory
+beliefs at the same time, we call this cognitive dissonance. Consider
+the anarchist who goes through the labour of demonstrating that taxation
+is theft and that theft is bad, therefore taxation is bad only to be
+confronted by his statist opponent who agrees that taxation is theft and
+that its bad but still asserts that taxation is a good thing that should
+continue. It is clear to anyone who has encountered stupid people that
+man is fully capable of holding contradictory theses at the same time.
+The upshot of this for our smoker is that by choosing to smoke rather
+than not smoke it must be the case that he believes that he should smoke
+rather than not smoke, <em>but</em> this does not preclude the
+possibility that our smoker <em>also</em> believes that he should not
+smoke—it’s just that his belief that he should smoke is in some sense
+over-powering his contradictory belief.</p>
+<p>There is a further confusion to be addressed at this point which
+stems from a conflation between two different senses of the word
+“ought.” To highlight this, consider the statement “it is raining
+outside, therefore you ought bring an umbrella.” Now, there are two ways
+one could interpret this statement; either (1) ought is being used in
+its precise logical meaning, or (2) its being used as prudential advice.
+For (1) it simply does not follow that because it is raining you ought
+bring an umbrella, at least not without additional steps. For (2)
+“ought” is being used colloquially, if we were to precisely formulate
+(2) it would be something like “it is raining outside so if you do not
+wish to get wet when you go outside a potential means to achieve this
+goal would be to bring an umbrella.” When formulated precisely it
+becomes clear that when prudential advice is given like this, the
+statement is really an “is” statement rather than an “ought” statement.
+This insight will become crucial in the next lesson so I will not stress
+it too heavily here, but the key takeaway for now is that there is only
+ought; ought is ought. There doesn’t exist different “flavours” of ought
+in logic, it is a failure of imprecision to mix in colloquial usages of
+this word.</p>
+<p>Bringing this back to our criminal, <span
+class="math inline"><em>A</em></span>, who wishes to challenge his
+punishment for punching <span class="math inline"><em>B</em></span>, he
+has already demonstrated by his conduct that he thinks punching is a
+legitimate interaction. If he then states that it is <em>not</em> a
+legitimate interaction, which is required for him to challenge his
+punishment, he is in a contradiction. To resolve a contradiction between
+two statements, one of the statements <em>has</em> to be dropped,
+because <span class="math inline"><em>A</em></span> simply
+<em>cannot</em> drop the statement that punching is proper, he is left
+only with being able to drop the statement that punching is improper,
+but the statement that punching is improper is the one that is
+<em>required</em> for him to challenge the punishment. Therefore, <span
+class="math inline"><em>A</em></span> <em>cannot</em> challenge his
+punishment—he is dialogically estopped from doing so.</p>
+<h2 id="mens-rea-vs-actus-reus">Mens Rea vs Actus Reus</h2>
+<p>An important note must be made with respect to the application of
+this theory of dialogical estoppel—a keen eye will notice that men are
+only estopped insofar as they <em>chose</em> to commit the aggression,
+that is, a man is only estopped when he purposefully engaged in the
+trespass in question. If a man did not purposefully aggress, but rather
+accidentally aggressed we say that he lacks “mens rea.” Mens rea is a
+legal term meaning “guilty mind,” it is characteristic of the man who
+decides that he wants to aggressively stab his neighbor to death, but
+not of the man who is hiking and accidentally wanders onto a farmers
+field. Mens rea is contrasted with actus reus, meaning “guilty act.”
+Actus reus is present in every man who trespasses, whether they did so
+knowingly or not. Restitution can be justified on the grounds of actus
+reus, retribution requires mens rea. Here, restitution refers to the act
+of making the victim whole again, say I steal 5 ounces of silver from my
+neighbor, restitution would involve me giving my neighbor 5 ounces of
+silver, retribution would involve a further 5 ounces of silver. In
+total, assuming I knowingly stole, my neighbor would be due 10 ounces of
+silver, 5 in restitution and 5 in retribution.</p>
+<p>As a point of clarification, mens rea does not require that the
+person in question actually understands that their action was criminal,
+all that is required is that they knowingly performed the invasion. For
+instance, the nazi prison guard who shoots an escaping Jew has knowingly
+invaded that Jews body with his bullet, however that guard may well
+believe that his action was justifiable because he believed in German
+law, rather than natural law. But, his belief that the action was just
+does not absolve him, as he knowingly performed what is objectively an
+invasion.</p>
+<h1 id="the-just-means-of-defense">The Just Means of Defense</h1>
+<h2 id="defense-as-exclusion">Defense as Exclusion</h2>
+<p>With an objective theory of the just means of punishment elucidated,
+we shall move onto an analysis of what means of <em>defense</em> are
+just. Recall that a property right in <span
+class="math inline"><em>X</em></span> held by a person <span
+class="math inline"><em>A</em></span> implies the right of <span
+class="math inline"><em>A</em></span> to exclude other people from the
+use of <span class="math inline"><em>X</em></span>. It is from this
+recognition that defense is justified—namely, <span
+class="math inline"><em>A</em></span> is permitted to use whatever means
+are required to go about excluding people from <span
+class="math inline"><em>X</em></span>. This simple principle is,
+however, not so simple to actually apply to complex scenarios. First
+consider the case of a man trespassing onto your front lawn to take a
+look at your roses. It is clear that insofar as you do not wish for him
+to do this there is trespass occurring—that is, he cannot use your lawn
+to stand on at the same time that you wish for him to not stand on your
+lawn. Therefore, you may exclude the man from doing so, but could you do
+so through arbitrary means? For instance, would you be permitted to fire
+a rocket at his feet thereby blowing him up, or would you have to take
+“gentler” means first? Let’s consider the relevant rights; the man owns
+his body and therefore has a right to exclude you from his body, but you
+own your lawn, and thus can exclude him from using your lawn—therefore
+you are permitted to possess him to the extent that is required to
+remove him from your lawn and no more.</p>
+<p>For instance, perhaps the man did not realise it was your property,
+but rather a natural feature that is not owned by anyone. Here, the man
+would lack mens rea, and perhaps simply informing him that he is
+trespassing will suffice to remove him from your lawn. Here, no
+possession of his body would be required, and thus no possession could
+be justified. However, the man might be stubborn and wish to look at
+your roses still, this more stubborn man may require that you grab him
+by the arm and walk him off of your property. Here, because the grabbing
+of the arm was required to remove him, it can be justified. You could
+not grab his arm and begin stabbing at him with a needle, because the
+stabbing with a needle does not serve the purpose of excluding the man
+from your property and is not required for this exclusion. Therefore
+this stabbing would be an additional aggressive invasion of the man,
+rather than of your lawn. Here it becomes clear that you would not be
+permitted to launch a rocket at the man unless said launching of the
+rocket was required to successfully exclude him.</p>
+<p>A further example to elaborate upon this principle is your neighbor
+kicking his ball onto your lawn. Let’s imagine first that your neighbor
+doesn’t want anyone else to touch his ball and you do not wish for the
+ball to be on your lawn. Here, the ball is invading your property so you
+could justly remove the ball at will—i.e. you are allowed to exclude the
+ball from your property and touching the ball is required to remove it.
+Imagine an alternative scenario where the ball is on your property and
+to teach him a lesson you tell your neighbor that you will not let him
+retrieve the ball himself <em>and</em> you will not remove the ball from
+your property on your own. This would be a case of excluding the
+neighbor from his ball which you are not trying to exclude from your
+property. Because you aren’t trying to exclude the ball from your
+property it could not be said that the ball has invaded your property,
+the neighbor still owns the ball and therefore you are engaged in an act
+of forestalling—you are excluding your neighbor from the ball that you
+do not own.</p>
+<p>However, if you did attempt to exclude the ball from your property,
+perhaps by erecting a fence, and your neighbor was nonetheless able to
+overcome your exclusion the ball is invading your property. Perhaps this
+fence completely encloses your property such that for the neighbor to
+retrieve his ball the fence would have to be removed. Certainly you
+would be permitted here to continue to exclude your neighbor from
+stepping on to retrieve his ball, as his stepping onto your property
+would involve a further invasion because you are already excluding
+people from your property prior to the ball being kicked on. Here the
+principle is that antecedent rights must prevail. You were excluding
+people and balls from your lawn which is why you own your wall, you
+cannot be compelled to allow further invasions to recover the costs of
+prior invasions. Your neighbor must suck it up and hope that you decide
+to return his ball to him. This is because your rights in the lawn are
+antecedent to your neighbors rights in the ball, as the ball was used to
+initiate the conflict. You are rightly allowed to take possession of his
+invading ball—Dominiaks contradiction from donut
+homesteads<sup><a id="fnr.9" class="footref" href="#fn.9" role="doc-backlink">9</a></sup>
+is resolved here by your possession of that ball being just, you gain
+ownership of that ball by virtue of it being invasive. This is not
+“full-monte” ownership, however, like in the case of owning a stick
+where you can trade it or use it however you wish. This ownership of the
+ball would be specifically for the purpose of excluding invaders from
+retrieving the ball, if you removed the ball from your property it would
+revert back into the ownership of your neighbor. This analysis applies
+also to the cases where a bird drops the ball onto your property or
+where a third party kicks the ball, but not where you kick your
+neighbors ball onto your property, as <em>you</em> initiated the
+conflict there.</p>
+<h2 id="the-human-body-sword-and-the-human-body-shield">The Human-Body
+Sword and the Human-Body Shield</h2>
+<p>The insight that even where your neighbor was not the one responsible
+for the invasion of the ball you may still take possession of it is key
+for understanding the libertarian answer to the human-body shield.
+Consider the case where a criminal steals your neighbors sword and
+attempts to stab you with it, and the only way to prevent this from
+happening is by damaging the sword, because damaging the sword is
+required in excluding the invasion it is just, even if your neighbor
+does not want the sword to be damaged. Similarly, if the criminal
+instead picks your neighbor up and tries to use him as a sword you would
+be justified in damaging your neighbors body insofar as this is required
+to exclude the criminals invasions.</p>
+<blockquote>
+<p>The situation is superficially different if, instead of attacking you
+with stolen property, the criminal instead shields himself with stolen
+property. For example, say the criminal wraps himself in your neighbor’s
+quilt, approaches you and then begins shooting at you. As you take cover
+and draw your sidearm, your neighbor yells, “Don’t shoot my quilt!” As a
+libertarian, must you respect the preference of your neighbor? Will
+stolen cars and tuxedos become the bane of libertarian police
+forces?<sup><a id="fnr.10" class="footref" href="#fn.10" role="doc-backlink">10</a></sup></p>
+</blockquote>
+<p>In such a scenario you would be justified in taking whatever actions
+are required to exclude the criminals attempted invasion as always. It
+is required that you shoot back in order to thwart him, thus this is
+just, even though it would imply damaging your neighbors quilt.
+Moreover, your neighbor would not be justified in attacking you to
+defend his quilt—you are doing no wrong by shooting through the quilt,
+therefore your neighbor cannot justify attacking you as he is not
+responding to an aggression on your part. We can then trivially move
+from a criminal using a quilt-shield, to one using your neighbor as a
+shield—again, you are justified in shooting back at the criminal, even
+if this implies shooting through your neighbor.</p>
+<blockquote>
+<p>An equivalent situation would be if the attacking criminal had
+connected a device to your neighbor that would kill him if the criminal
+were to die. If you defend yourself against the criminal, then your
+neighbor will suffer. Yet, as in the previous case, your rights are
+antecedent to those of your neighbor. The aggressor brought his property
+into conflict. The violation of your neighbor’s property rights occurs
+when the criminal connects the device to him, and when the criminal
+attacks you, not when you kill the criminal. Furthermore, your neighbor
+would not be justified in attacking you to try and prevent you from
+killing the
+criminal.<sup><a id="fnr.11" class="footref" href="#fn.11" role="doc-backlink">11</a></sup></p>
+</blockquote>
+<p>This is distinct from the situation where your neighbor is a
+bystander to the aggression, in such a situation attacking him is not
+required to exclude the aggressive invasions from the criminal, so
+randomly turning around and shooting at him during the gunfight would be
+additional aggression insofar as this is not required to thwart the bad
+guy. The same is true if you were given an ultimatum by the criminal
+where he will shoot you if you don’t kill your neighbor. You are allowed
+only to engage in exclusionary actions <em>against the aggressor</em>,
+not against bystanders. These exclusionary actions may well damage the
+property of third parties, but this does not provide carte blanche for
+any invasions you may wish to engage in to exclude. To clarify,
+exclusion is only justified against aggressors, however exclusion
+against an aggressor may or may not involve damage to the property of
+third parties, this damage can only be justified if it is required to
+exclude the aggressor.</p>
+<h1 id="related-reading">Related Reading</h1>
+<ul>
+<li>Kris Borer (2010), “The Human Body Sword,” <em>Libertarian
+Papers</em> 2, 20</li>
+<li>N. Stephan Kinsella (1996), <em>Punishment and Proportionality: The
+Estoppel Approach</em>, Journal of Libertarian Studies 12:1 (Spring
+1996), pp. 51-73</li>
+</ul>
+<h1 id="footnotes">Footnotes</h1>
+<p><sup><a id="fn.1" href="#fnr.1">1</a></sup> N. Stephan Kinsella
+(1996), <em>Punishment and Proportionality: The Estoppel Approach</em>,
+Journal of Libertarian Studies 12:1 (Spring 1996), pp. 51-73</p>
+<p><sup><a id="fn.2" href="#fnr.2">2</a></sup> N. Stephan Kinsella
+(1996), “Punishment and Consent,” in ibid., pp. 51-73</p>
+<p><sup><a id="fn.3" href="#fnr.3">3</a></sup> See N. Stephan Kinsella
+(1996), “Dialogical Estoppel,” in idem. <em>Punishment and
+Proportionality: The Estoppel Approach</em>, Journal of Libertarian
+Studies 12:1 (Spring 1996), pp. 51-73</p>
+<p><sup><a id="fn.4" href="#fnr.4">4</a></sup> N. Stephan Kinsella
+(1996), <em>Punishment and Proportionality: The Estoppel Approach</em>,
+Journal of Libertarian Studies 12:1 (Spring 1996), p. 53, n. 10</p>
+<p><sup><a id="fn.5" href="#fnr.5">5</a></sup> ibid., pp. 51-73</p>
+<p><sup><a id="fn.6" href="#fnr.6">6</a></sup> Hans-Hermann Hoppe
+(1988), “The Ethical Justification of Capitalism and Why Socialism Is
+Morally Indefensible,” p. 157 in idem. <em>A Theory of Socialism and
+Capitalism</em>; see also ibid. n. 119</p>
+<p><sup><a id="fn.7" href="#fnr.7">7</a></sup> Note that “it is raining
+right now” is not a counter-example here. If we are to be complete
+autists we would re-word this proposition as “it is raining at time X in
+area Y,” which if correct would remain correct forever. It is the use of
+colloquial language which introduces the seemingly changing truth of the
+statement.</p>
+<p><sup><a id="fn.8" href="#fnr.8">8</a></sup> N. Stephan Kinsella
+(1996), “Potential Defenses by the Aggressor,” p. 60 in idem.
+<em>Punishment and Proportionality: The Estoppel Approach</em>, Journal
+of Libertarian Studies 12:1 (Spring 1996), pp. 51-73; see also ibid.
+n. 28</p>
+<p><sup><a id="fn.9" href="#fnr.9">9</a></sup> See Łukasz Dominiak
+(2017), <em>The Blockian Proviso and the Rationality of Property
+Rights</em>, see also: LiquidZulu (2023), “The Blockean Proviso,” in
+idem. <em>Homesteading and Property Rights</em>, <a
+href="https://liquidzulu.github.io/homesteading-and-property-rights"
+class="uri">https://liquidzulu.github.io/homesteading-and-property-rights</a></p>
+<p><sup><a id="fn.10" href="#fnr.10">10</a></sup> Kris Borer (2010),
+“The Human Body Sword,” <em>Libertarian Papers</em> 2, 20, p. 5</p>
+<p><sup><a id="fn.11" href="#fnr.11">11</a></sup> ibid., p. 6</p>
+</body>
+</html>
